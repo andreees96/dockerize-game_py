@@ -1,0 +1,8 @@
+services:
+  my-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/game_py
+
